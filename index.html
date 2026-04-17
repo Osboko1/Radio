@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+                                                                                                                                                                                                                                                                                                                                                                                                      <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,17 +12,19 @@
         .card { background: #1e293b; padding: 2rem; border-radius: 1.5rem; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5); width: 85%; max-width: 400px; text-align: center; border: 1px solid #334155; }
         .status { color: #10b981; font-size: 0.8rem; font-weight: bold; letter-spacing: 0.1em; margin-bottom: 1rem; }
         h1 { margin: 0; font-size: 1.5rem; color: #38bdf8; }
-        p { color: #94a3b8; font-size: 0.9rem; margin: 0.5rem 0 1rem 0; }
+        p { color: #94a3b8; font-size: 0.9rem; margin: 0.5rem 0 1.5rem 0; }
         
-        /* The Inline Disclaimer */
-        .ad-notice {
-            color: #64748b;
+        /* Visible Disclaimer Box */
+        .ad-disclaimer {
+            background: #0f172a;
+            color: #94a3b8;
             font-size: 0.75rem;
+            padding: 0.75rem;
+            border-radius: 0.75rem;
             margin-bottom: 1.5rem;
-            line-height: 1.4;
-            border-top: 1px solid #334155;
-            padding-top: 1rem;
+            border: 1px solid #1e293b;
         }
+        .ad-disclaimer b { color: #38bdf8; }
 
         .btn { background: #38bdf8; color: #020617; border: none; padding: 1.2rem 2rem; border-radius: 1rem; font-weight: 800; font-size: 1.1rem; width: 100%; cursor: pointer; transition: transform 0.1s; }
         .btn:active { transform: scale(0.98); }
@@ -36,8 +39,8 @@
         <h1>Jackson County</h1>
         <p>Sheriff • Seymour Police/Fire • EMS</p>
         
-        <div class="ad-notice">
-            Note: Broadcastify may play 15-30 seconds of ads before the live stream begins.
+        <div class="ad-disclaimer">
+            <b>Notice:</b> Expect 15-30 seconds of ads before the live audio begins.
         </div>
 
         <button class="btn" id="toggleBtn" onclick="initScanner()">START SCANNER</button>
@@ -93,4 +96,4 @@
     </script>
 </body>
 </html>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+                                                                          

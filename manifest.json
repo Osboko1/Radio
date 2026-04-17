@@ -1,0 +1,16 @@
+{
+      "name": "Jackson County Scanner",
+        "short_name": "Scanner",
+          "start_url": "index.html",
+            "display": "standalone",
+              "background_color": "#020617",
+                "theme_color": "#0ea5e9",
+                  "icons": [
+                      {
+                            "src": "https://cdn-icons-png.flaticon.com/512/3034/3034237.png",
+                                  "sizes": "512x512",
+                                        "type": "image/png"
+                                            }
+                                              ]
+                                              }
+
